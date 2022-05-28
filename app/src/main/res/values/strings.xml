@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">7 Minutes Workout</string>
+    <string name="_start">START</string>
+    <string name="here_are_few_best_scientific_exercise">Here are few best scientific exercise</string>
+    <string name="_proposed">Proposed</string>
+    <string name="_home">HOME</string>
+    <string name="_options">Options</string>
+    <string name="choose_options_from_below_for_other_services">Choose options from below for other services</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="exercise_image">Exercise Image</string>
+    <string name="next_step_exercise_name">NEXT STEP : Exercise Name</string>
+    <string name="are_you_excited_to_start_workout_feel_the_energy_inside_you_focus_on_your_today_s_goal_visualise_your_dream_body_and_lets_start">Are you excited to start workout feel the energy inside you, focus on your today\'s goal, visualise your dream body and lets start</string>
+    <string name="are_you_ready">ARE YOU READY?</string>
+    <string name="yes_i_am_ready">yes, i am ready</string>
+    <string name="no_hold_on">no, hold on</string>
+    <string name="are_you_sure">ARE YOU SURE!</string>
+    <string name="are_you_sure_you_want_to_quit_to_the_main_menu_the_progress_of_this_exercise_session_will_not_be_saved_if_you_continue">Are you sure you want to quit to the main menu. The progress of this exercise session will not be saved if you quit.</string>
+    <string name="yes">Yes</string>
+    <string name="history">HISTORY</string>
+    <string name="bmi">BMI</string>
+    <string name="first_para">The BMI is a measurement of a person\'s leanness based on their height and weight.</string>
+    <string name="second_para">Although it has limitations,your BMI can be used as a general indicator for body weight health.</string>
+</resources>

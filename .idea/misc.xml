@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.3065" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3315" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/btn_bg.xml" value="0.31" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/circular_progress_bar.xml" value="0.32" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/circular_progress_gray.xml" value="0.32" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/drawable_radio_group_tab_background.xml" value="0.3195" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.3195" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/drawable_units_tab_text_color_selector.xml" value="0.3195" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.3315" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3315" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.32" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/item_circular_color_grey_background.xml" value="0.331" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/item_circular_completed_background.xml" value="0.3315" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/item_circular_thin_ring_background.xml" value="0.3315" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/drawable/item_color_accent_border_ripple_bg.xml" value="0.32" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/font/poppins.xml" value="0.3927083333333333" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_bmi.xml" value="0.25" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.25" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_exercise_main.xml" value="0.25" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_main.xml" value="0.21721311475409835" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/activity_workout_completion.xml" value="0.25" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/are_you_ready_layout_dialog.xml" value="0.33" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/are_you_sure_layout_dialog.xml" value="0.33" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/custom_toast_layout.xml" value="0.365625" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.36666666666666664" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/item_history_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/NOTES_AND_STUFF/AppProjects/7MinutesWorkout/app/src/main/res/layout/want_to_delete_dialog.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

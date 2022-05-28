@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@drawable/drawable_radio_group_tab_background"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/tvSNumber"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="15dp"
+        android:background="@drawable/item_circular_color_grey_background"
+        android:backgroundTint="@color/light_tone"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:gravity="center"
+
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/tvExerciseDone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/drawable_radio_group_tab_background"
+        android:backgroundTint="#263546"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:gravity="center"
+
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Date"
+        tools:text="12 Exercise Done" />
+
+    <TextView
+        android:id="@+id/tv_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nunito_sans_bold"
+        android:gravity="center"
+
+        android:padding="3dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Date" />
+
+    <ImageButton
+        android:id="@+id/ibDelete"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/remove"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

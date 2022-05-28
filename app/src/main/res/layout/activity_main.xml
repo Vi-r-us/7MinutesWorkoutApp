@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:background="@color/background"
+
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <!-- Upper Part of the Main Layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/upper_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toTopOf="@id/upper_part"
+            app:layout_constraintBottom_toBottomOf="@id/upper_part"
+            app:layout_constraintStart_toStartOf="@id/upper_part"
+            app:layout_constraintEnd_toEndOf="@id/upper_part">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="@string/_home"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f0f0f4"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:gravity="start"
+                android:text="@string/_proposed"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_regular"
+                android:gravity="start"
+                android:text="@string/here_are_few_best_scientific_exercise"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/light_tone"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Mid Part of the Main Layout (Start) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mid_part"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@+id/lower_part"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upper_part">
+
+        <FrameLayout
+            android:id="@+id/flStart"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_color_accent_border_ripple_bg"
+
+            app:layout_constraintTop_toTopOf="@id/mid_part"
+            app:layout_constraintBottom_toBottomOf="@id/mid_part"
+            app:layout_constraintStart_toStartOf="@id/mid_part"
+            app:layout_constraintEnd_toEndOf="@id/mid_part">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="@string/_start"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Lower Part of the Main Layout (Options) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lower_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toTopOf="@id/lower_part"
+            app:layout_constraintBottom_toBottomOf="@id/lower_part"
+            app:layout_constraintStart_toStartOf="@id/lower_part"
+            app:layout_constraintEnd_toEndOf="@id/lower_part">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f0f0f4"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:gravity="start"
+                android:text="@string/_options"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_regular"
+                android:gravity="start"
+                android:text="@string/choose_options_from_below_for_other_services"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+            <View
+                android:layout_width="70dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/light_tone"/>
+
+            <!-- Other Options -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Go to History -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginEnd="100dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ibHistory"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/growth"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:text="@string/history"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <!-- Go to BMI -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ibBmi"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/bmi"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:text="@string/bmi"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

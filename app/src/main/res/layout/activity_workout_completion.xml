@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".WorkoutCompletionActivity"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="300dp"
+
+        android:background="@drawable/shield"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_workout_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="WORKOUT COMPLETE"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn_bg"
+        app:backgroundTint="#00AA63"
+
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="save"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_workout_complete" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn_bg"
+
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="finish"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_workout_complete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

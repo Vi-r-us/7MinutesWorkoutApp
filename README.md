@@ -16,10 +16,14 @@
 * History of past workouts.
 * BMI Calculator with 2 units system (Metrics and US).
 
-## Screenshots
+## Screenshots 
+<img src="screenshots/homeScreen.png" width="20%" hspace="10" vspace="10" />  <img src="screenshots/BMIScreen.png" width="20%" hspace="10" vspace="10"/>  <img src="screenshots/areYouReady.png" width="20%" hspace="10" vspace="10"/>
 
+<img src="screenshots/restScreen.png" width="20%" hspace="10" vspace="10" />  <img src="screenshots/exerciseScreen.png" width="20%" hspace="10" vspace="10"/>  <img src="screenshots/areYouSure.png" width="20%" hspace="10" vspace="10"/>  <img src="screenshots/finishScreen.png" width="20%" hspace="10" vspace="10"/>
 
-## Tech Stack & Open-source libraries
+<img src="screenshots/historyScreen.png" width="20%" hspace="10" vspace="10" />  <img src="screenshots/deleteHistory.png" width="20%" hspace="10" vspace="10"/>  <img src="screenshots/emptyHistoryScreen.png" width="20%" hspace="10" vspace="10"/>
+
+## Tech Stack & Open-source libraries 
 * Minimum SDK level 21.
 * [Kotlin](https://kotlinlang.org/) - official programming language for Android development.
 * [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - for asynchronous programming.
@@ -33,6 +37,20 @@
 * [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) - for display a scrolling list of elements based on large data sets.
 * [Material-Components](https://github.com/material-components/material-components-android) - Material design components.
   - [Material Dialogs](https://github.com/afollestad/material-dialogs) - library with extensible dialogs API for Kotlin & Android.
+
+## Contributing
+Awesome! If you would like to contribute you're always welcome!
+
+### Steps :
+1.Fork it
+
+2.Create your feature branch (git checkout -b my-new-feature)
+
+3.Commit your changes (git commit -m 'Add some feature')
+
+4.Push your branch (git push origin my-new-feature)
+
+5-Create a new Pull Request    
 
 # License
 ```xml
